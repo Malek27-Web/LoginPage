@@ -1,0 +1,25 @@
+.rec {
+  position: absolute;
+  top: 0;
+  left: 14rem;
+  width: 28rem;
+  height: 30rem;
+}
+.image {
+  width: 29rem;
+}
+.signup{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+@media (max-width: 1075px) {
+  .signup {
+    flex-direction: column;
+    overflow-x: hidden;
+  }
+  .rec {
+    display: none;
+  }
+}

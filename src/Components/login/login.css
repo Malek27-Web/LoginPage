@@ -1,0 +1,22 @@
+.rec1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.rectangle {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+@media (max-width: 886px) {
+  .login {
+    flex-direction: column-reverse;
+  }
+  .rectangle {
+    display: none;
+  }
+  .rec1 {
+    display: none;
+  }
+}
