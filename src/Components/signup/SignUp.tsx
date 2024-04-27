@@ -28,6 +28,7 @@ function SignUp() {
         </div>
       </div>
       <img src="./img/Rectangle_7.png" className="rec z-n1" alt="" />
+      <img src="./img/Rectangle_8.png" className="Rec8" />
     </>
   );
 }

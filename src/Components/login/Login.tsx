@@ -30,6 +30,7 @@ function Login() {
         className="position-absolute bottom-0 start-0 rec1 "
         alt=""
       />
+      <img src="/img/Rectangle_5.png" className="Rec5" alt="" />
     </div>
   );
 }
