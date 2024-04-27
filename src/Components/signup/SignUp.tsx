@@ -7,11 +7,7 @@ function SignUp() {
   return (
     <>
       <div className="signup">
-        <img
-          src="./public\img\Other 07reg.png"
-          className="image img-fluid"
-          alt=""
-        />
+        <img src="/img/Other_07reg.png" className="image img-fluid" alt="" />
         <div className="d-flex align-items-center flex-column gap-2 ">
           <p className="fs-4 fw-semibold">Please fill out form to Register!</p>
           <Input label="Full name:" />
@@ -28,10 +24,10 @@ function SignUp() {
               Login
             </Link>
           </p>
-          <img src="./public\img\Social media icons.png" alt="" />
+          <img src="./img/Social_media_icons.png" alt="" />
         </div>
       </div>
-      <img src="./public\img\Rectangle 7.png" className="rec z-n1" alt="" />
+      <img src="./img/Rectangle_7.png" className="rec z-n1" alt="" />
     </>
   );
 }

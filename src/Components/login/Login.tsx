@@ -20,17 +20,13 @@ function Login() {
               Register
             </Link>
           </p>
-          <img src="./public\img\Social media icons.png" alt="" />
+          <img src="/img/Social_media_icons.png" alt="" />
         </div>
-        <img src="./public\img\Other 03.png" className="img-fluid" alt="" />
+        <img src="/img/Other_03.png" className="img-fluid" alt="" />
       </div>
+      <img src="/img/Rectangle_1.png" className="rectangle h-100" alt="" />
       <img
-        src="./public\img\Rectangle 1.png"
-        className="rectangle h-100"
-        alt=""
-      />
-      <img
-        src="./public\img\Rectangle 6.png"
+        src="/img/Rectangle_6.png"
         className="position-absolute bottom-0 start-0 rec1 "
         alt=""
       />
