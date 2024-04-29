@@ -17,5 +17,5 @@
   transform: translate(-50%, -50%);
   border-radius: 25px;
   backdrop-filter: blur(25px);
-  min-width: 10rem;
+  min-width: 15rem;
 }
