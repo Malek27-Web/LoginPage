@@ -18,7 +18,7 @@ function Login() {
           {alertVisible && (
             <Popup
               onClose={() => setAlertVisibility(false)}
-              textPrpos="ay ayoub mara7be bik"
+              textPrpos="Welcome"
             />
           )}
 

@@ -15,7 +15,7 @@
   left: 1px;
   z-index: -1;
 }
-@media (max-width: 886px) {
+@media (max-width: 921px) {
   .login {
     flex-direction: column-reverse;
   }
