@@ -19,9 +19,7 @@
   .login {
     flex-direction: column-reverse;
   }
-  .rectangle {
-    display: none;
-  }
+
   .rec1 {
     display: none;
   }

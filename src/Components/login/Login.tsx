@@ -2,8 +2,11 @@ import { Link } from "react-router-dom";
 import Button from "../index/Button";
 import Input from "../index/Input";
 import "./login.css";
+import { useState } from "react";
+import Popup from "../index/Popup";
 
 function Login() {
+  const [alertVisible, setAlertVisibility] = useState(false);
   return (
     <div>
       <div className="d-flex justify-content-around align-items-center login">
@@ -11,8 +14,16 @@ function Login() {
           <p className="fs-4 fw-semibold">Welcome Back !</p>
           <Input label="Username:" />
           <Input label="Password:" />
+
+          {alertVisible && (
+            <Popup
+              onClose={() => setAlertVisibility(false)}
+              textPrpos="Bienvenue"
+            />
+          )}
+
           <br />
-          <Button btnText="Login" />
+          <Button onClick={() => setAlertVisibility(true)} btnText="Login" />
           <br />
           <p>
             Do you have an account ?

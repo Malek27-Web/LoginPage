@@ -2,8 +2,12 @@ import Button from "../index/Button";
 import Input from "../index/Input";
 import { Link } from "react-router-dom";
 import "./signup.css";
+import { useState } from "react";
+import Popup from "../index/Popup";
 
 function SignUp() {
+  const [alertVisible, setAlertVisibility] = useState(false);
+
   return (
     <>
       <div className="signup">
@@ -16,7 +20,14 @@ function SignUp() {
           <Input label="Password:" />
           <Input label="Confirm Password:" />
           <br />
-          <Button btnText="Register" />
+          {alertVisible && (
+            <Popup
+              onClose={() => setAlertVisibility(false)}
+              textPrpos="Bienvenue"
+            />
+          )}
+          <Button btnText="Register" onClick={() => setAlertVisibility(true)} />
+
           <br />
           <p>
             yes i have an account?
