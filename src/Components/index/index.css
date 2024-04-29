@@ -9,8 +9,6 @@
   padding: 2px;
 }
 .popup {
-  -webkit-box-shadow: 0px 0px 19px 2px #afb3ff;
-  box-shadow: 0px 0px 19px 2px #afb3ff;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -18,7 +16,17 @@
   border-style: solid;
   border-color: #ffffff;
   transform: translate(-50%, -50%);
-  border-radius: 25px;
   backdrop-filter: blur(12px);
   min-width: 15rem;
+  background: rgba(175, 179, 255, 0.55);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(15.5px);
+  -webkit-backdrop-filter: blur(15.5px);
+  border-radius: 10px;
+  border: 2px solid white;
+  outline: none;
+}
+button {
+  right: 9px;
+  top: 2px;
 }
